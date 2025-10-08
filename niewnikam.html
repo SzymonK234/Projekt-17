@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="PL">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Wycieczka do Amsterdamu</h1>
+        <div>
+            <form action="">
+                <div>   
+                    <label for="imie">Imię:</label>
+                    <input type="text" id="imie" name="imie">
+
+                    <label for="nazwisko">Nazwisko:</label>
+                    <input type="text" id="nazwisko" name="nazwisko">
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email">
+
+                    <label for="nrtelefonu">Nr Telefonu:</label>
+                    <input type="tel" id="nrtelefonu" name="nrtelefonu">
+
+                    <label for="dataurodzenia">Data urodzenia:</label>
+                    <input type="date" id="dataurodzenia" name="dataurodzenia">
+
+                    <label for="adreszamieszkania">Adres zamieszkania:</label>
+                    <input type="text" id="adreszamieszkania" name="adreszamieszkania">
+                    
+                    <select name="kraj">
+                        <option value="polska" selected>Polska</option>
+                        <option value="niemcy">Niemcy</option>
+                        <option value="wywloczka">Imperium Wywłoczańskie</option>
+                        <option value="bialorus">Białoruś</option>
+                        <option value="ukraina" disabled>Ukraina (niedostępne)</option>
+                    </select>
+                </div> 
+                <div>
+                    <label for="plec">Płeć:</label>
+                    <label><input type="radio" id="plec" name="plec" value="K" checked> Kobieta</label>
+                    <label><input type="radio" id="plec" name="plec" value="M" checked> Mężczyzna</label>
+
+                    <label><input type="checkbox" name="atrakcja1" value="atrakcja1"> Atrakcja 1</label>
+                    
+                    <label><input type="checkbox" name="atrakcja2" value="atrakcja2"> Atrakcja 2</label>
+                    
+                    <label><input type="checkbox" name="atrakcja3" value="atrakcja3"> Atrakcja 3</label>
+                </div>
+                <div>
+                    <input type="reset" value="Zreseruj">
+                    <input type="submit" value="Wyślij">
+                </div>
+            </form>        
+        </div>
+</body>
+</html>
